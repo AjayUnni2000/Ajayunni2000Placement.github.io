@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ettumanoorappan College</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="index.css">
+</head>
+
+<body>
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-card" id="myNavbar">
+    <img src="logo1.jpg" width="60%" height="auto" align="left"/>
+    <!-- Right-sided navbar links -->
+    <div class="w3-right w3-hide-small">
+      <a href="#home" class="w3-bar-item w3-button w3-wide">HOME</a>
+      <a href="#about" class="w3-bar-item w3-button">ABOUT US</a>
+      <a href="#recruit" class="w3-bar-item w3-button"><i class="fa fa-th"></i> RECRUITERS</a>
+      <a href="#placement" class="w3-bar-item w3-button"><i class="fa fa-user"></i> PLACEMENTS</a>
+      <a href="#contact" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> CONTACT</a>
+    </div>
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</div>
+
+<!-- Sidebar on small screens when clicking the menu icon -->
+<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT US</a>
+  <a href="#recruit" onclick="w3_close()" class="w3-bar-item w3-button">RECRUITERS</a>
+  <a href="#placement" onclick="w3_close()" class="w3-bar-item w3-button">PLACEMENTS</a>
+  <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
+</nav>
+
+<!-- Header with full-height image -->
+<header id="home">
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 8</div>
+  <img src="college.jpg" style="width:100%">
+  <div class="text">Ettumanoorappan College</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 8</div>
+  <img src="college1.jpg" style="width:100%">
+  <div class="text">Ettumanoorappan College</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 8</div>
+  <img src="college2.jpg" style="width:100%">
+  <div class="text">Ettumanoorappan College</div>
+</div>
+
+
+<div class="mySlides fade">
+  <div class="numbertext">4 / 8</div>
+  <img src="college3.jpg" style="width:100%">
+  <div class="text">Courses Offered</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">5 / 8</div>
+  <img src="college4.jpg" style="width:100%">
+  <div class="text">Rank Holders</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">6 / 8</div>
+  <img src="college5.jpg" style="width:100%">
+  <div class="text">Seminar Hall</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">7 / 8</div>
+  <img src="college6.jpg" style="width:100%">
+  <div class="text">Library</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">8 / 8</div>
+  <img src="college7.jpg" style="width:100%">
+  <div class="text">Computer Lab</div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+  <span class="dot" onclick="currentSlide(4)"></span>
+  <span class="dot" onclick="currentSlide(5)"></span> 
+  <span class="dot" onclick="currentSlide(6)"></span> 
+  <span class="dot" onclick="currentSlide(7)"></span> 
+  <span class="dot" onclick="currentSlide(8)"></span>  
+</div>
+</header>
+
+<!-- About Section -->
+<div class="w3-container" style="padding:128px 16px" id="about">
+  <h3 class="w3-center">ABOUT THE COLLEGE</h3>
+  <p class="w3-center w3-large">PROFILE</p>
+  <div class="w3-row-padding w3-left" style="margin-top:64px">
+  <p><h4>&emsp;&emsp;Ettumanoorappan college is a pioneering self-financing co-educational college affiliated to Mahatma Gandhi 
+         University. The founder president of the college is the Late Mr. N Ramakrishna Pillai (Retd. Head Master). The college was 
+         established in 1995 and it is owned by the Ettumanoor Education Society, which is registered under the Charitable Societies 
+         Act 1985.<br>
+
+         &emsp;&emsp;Ettumanoorappan College is run under the patronage of Sri. R Ramachandran Nair IAS (Retd. Chief Secretary), 
+         who is an efficient administrator, an eminent write, a veteran academician, and a versatile genius. He is the President of 
+         the Ettumanoor Education Society. Sri. A. R Thulasidas is the Secretary and Smt. Lakshmi R. Nair is the Treasurer of the 
+         society.<br>
+
+         &emsp;&emsp;The college aims to increase the life opportunities of individuals and the productivity of the organization. The
+         objective of the college is to equip the students with updated subject knowledge in the programmes and to bring out the 
+         innate talents of the students and make them confident to take up different jobs. The college helps the students to develop 
+         the soft skills through intensive training in communicative skills, leadership quality, personality development and character
+         and capacity building and thus concentrates on the overall development of individuals to shape them as good citizens.
+</h4></p>
+  </div>
+</div>
+
+<!-- Statistics Section-->
+<div class="w3-container w3-row w3-center w3-dark-grey w3-padding-64">
+  <p><h3>Our College Features</h3></p>
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">1500+</span>
+    <br>Students
+  </div>
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">15+</span>
+    <br>Courses
+  </div>
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">150+</span>
+    <br>Faculties
+  </div>
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">100%</span>
+    <br>Placements
+  </div>
+</div>
+
+<!-- Recruiters Section -->
+<div class="w3-container w3-white" style="padding:128px 16px" id="recruit">
+  <h3 class="w3-center">Top Comapnies</h3>
+  <p class="w3-center w3-large">Some Companies Who Choose Our Students</p>
+  <div class="w3-row-padding" style="margin-top:64px">
+      <div class="w3-col l3 m6">
+        <img src="tcs.jpg" height="30%" width="50%" onclick="onClick(this)" class="w3-hover-opacity" alt="TCS">
+        <button style="padding: 10px 90px; border: 2px solid #f44336" onclick="window.location.href='https://www.tcs.com/';"><i class="fa fa-link"></i>Visit</button>
+      </div>
+      <div class="w3-col l3 m6">
+        <img src="infosys.jpg" height="30%" width="50%" onclick="onClick(this)" class="w3-hover-opacity" alt="INFOSYS">
+        <button style="padding: 10px 90px; border: 2px solid #008CBA" onclick="window.location.href='https://www.infosys.com/';"><i class="fa fa-link"></i>Visit</button>
+      </div>
+      <div class="w3-col l3 m6">
+        <img src="wipro.jpg" height="10%" width="50%" onclick="onClick(this)" class="w3-hover-opacity" alt="WIPRO"><br>
+        <button style="padding: 10px 90px; border: 2px solid #4CAF50" onclick="window.location.href='https://www.wipro.com/';"><i class="fa fa-link"></i>Visit</button>
+      </div>
+      <div class="w3-col l3 m6">
+        <img src="infopark.jpg" height="30%" width="50%" onclick="onClick(this)" class="w3-hover-opacity" alt="INFOPARK"><br>
+        <button style="padding: 10px 90px; border: 2px solid #4CAF50" onclick="window.location.href='https://infopark.in/';"><i class="fa fa-link"></i>Visit</button>
+    </div>
+   </div>
+    <div class="w3-row-padding w3-section">
+    <div class="w3-col l3 m6">
+      <img src="manorama.jpg" height="30%" width="50%" onclick="onClick(this)" class="w3-hover-opacity" alt="MANORAMA">
+      <button style="padding: 10px 90px; border: 2px solid #55555" onclick="window.location.href='https://www.manoramaonline.com/';"><i class="fa fa-link"></i>Visit</button>
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="muthoot.jpg" height="30%" width="50%" onclick="onClick(this)" class="w3-hover-opacity" alt="MUTHOOT">
+      <button style="padding: 10px 90px; border: 2px solid #008CBA" onclick="window.location.href='https://www.muthootfinance.com/';"><i class="fa fa-link"></i>Visit</button>
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="federal.jpg" height="30%" width="50%" onclick="onClick(this)" class="w3-hover-opacity" alt="FEDERAL"><br>
+      <button style="padding: 10px 90px; border: 2px solid #008CBA" onclick="window.location.href='https://www.federalbank.co.in/';"><i class="fa fa-link"></i>Visit</button>
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="vivo.jpg" height="30%" width="50%" onclick="onClick(this)" class="w3-hover-opacity" alt="VIVO"><br>
+      <button style="padding: 10px 90px; border: 2px solid #008CBA" onclick="window.location.href='https://www.vivo.com/in';"><i class="fa fa-link"></i>Visit</button>
+    </div></div></div>
+
+<!-- Placement Section -->
+<div class="w3-container" style="padding:128px 16px" id="placement">
+  <h3 class="w3-center">Our Placements</h3>
+  <p class="w3-center w3-large">Happily Introducing Our Campus Placed Students</p>
+
+  <div class="w3-row-padding" style="margin-top:64px">
+    <div class="w3-col l3 m6">
+      <img src="muhammed.jpg" height="30%" width="50%" onclick="onClick(this)" class="w3-hover-opacity" alt="Muhammed">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="aswini.jpg" height="30%" width="50%" onclick="onClick(this)" class="w3-hover-opacity" alt="Aswini">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="aiswarya.jpg" height="30%" width="50%" onclick="onClick(this)" class="w3-hover-opacity" alt="Aiswarya">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="aravind.jpg" height="30%" width="50%" onclick="onClick(this)" class="w3-hover-opacity" alt="Aravind">
+    </div>
+  </div>
+
+  <div class="w3-row-padding w3-section">
+    <div class="w3-col l3 m6">
+      <img src="gopika.jpg" height="30%" width="50%" onclick="onClick(this)" class="w3-hover-opacity" alt="Gopika">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="amrutha.jpg" height="30%" width="50%" onclick="onClick(this)" class="w3-hover-opacity" alt="Amrutha">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="greeshma.jpg" height="30%" width="50%" onclick="onClick(this)" class="w3-hover-opacity" alt="Greeshma">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="krishnapriya.jpg" height="30%" width="50%" onclick="onClick(this)" class="w3-hover-opacity" alt="Krishnapriya">
+    </div>
+  </div>
+</div>
+
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-xxlarge w3-black w3-padding-large w3-display-topright" title="Close Modal Image">×</span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div>
+
+<!-- Contact Section -->
+<div class="w3-container w3-white" style="padding:128px 16px" id="contact">
+  <h3 class="w3-center">CONTACT US!!!</h3>
+  <p class="w3-center w3-large">Lets get in touch. Send us a message:</p>
+  <div style="margin-top:48px">
+    <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Ettumanoorappan College,<br>
+        &emsp;&emsp;&emsp;&emsp; Choorakulangara, Ettumanoor, Kottayam Dt.,<br>
+        &emsp;&emsp;&emsp;&emsp; PIN: 686631</p>
+    <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone: 0481-2536978,2538978</p>
+    <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Fax: 2538978</p>
+    <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: ettumanoorappancollege@ymail.com</p>
+    <br>
+    <form action="/action_page.php" target="_blank" align="center">
+    <table>
+    <tr>
+     <td>
+
+      <input type="text" placeholder="First Name" name="fname" id="fname" required>
+      <input type="text" placeholder="Last Name" name="lname" id="lname" required><br><br>
+    
+      <input type="tel" maxlength="10" pattern="\d{10}" placeholder="Enter Phone Number" name="phnum" id="phnum" required><br><br>
+
+      <input type="email" placeholder="Enter email id" name="email" id="email" required><br><br>
+
+      <textarea rows="5" placeholder="Type Your Message" name="mes" id="mes" required></textarea><br><br>
+
+      <center><button class="w3-button w3-black" type="submit"><i class="fa fa-paper-plane"></i> SEND MESSAGE</button>
+    
+     </td>
+    </tr>
+    </table>
+    </form>
+<!-- Image of location/map -->
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3307.244934165124!2d76.55192962267309!3d9.681107623189408!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b07d37070e2c3af%3A0x11fb8067f9d8979f!2sEttumanoorappan%20College!5e0!3m2!1sen!2sin!4v1622955146527!5m2!1sen!2sin" width="100%" height=20%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-#ffb366 w3-padding-64">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <p>Copyright © 2021 Ettumanoorappan College.edu.in. All Rights Reserved.</p>
+</footer>
+ 
+<script>
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+ 
+}
+
+
+// Toggle between showing and hiding the sidebar when clicking the menu icon
+var mySidebar = document.getElementById("mySidebar");
+
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+  } else {
+    mySidebar.style.display = 'block';
+  }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+    mySidebar.style.display = "none";
+}
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+</body>
+</html>
